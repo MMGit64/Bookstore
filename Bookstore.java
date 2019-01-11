@@ -27,7 +27,7 @@ public class Bookstore {
 		
 		
 		try (
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore_db?useSSL=false", "myuser", "xxxxx");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore_db?useSSL=false", "xxxx", "xxxxx");
 								
 								//Database URL: "jdbc:mysql: //hostname:port/databaseName", "username", "password"
 			
